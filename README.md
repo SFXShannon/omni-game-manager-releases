@@ -38,6 +38,7 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 - **Tune from inside the headset:** an **Omni tuning** tab in the SteamVR dashboard edits the running game's movement settings, and changes apply within a second or two. **Pin to left hand** keeps the panel on your controller so you can keep walking while you adjust.
 - **Launches** the game the right way, starting SteamVR and Omni Connect first and adding any Steam launch options it still needs.
 - **Warns you** about things that stop the Omni from working, such as the wrong OpenXR runtime or Legacy Mode.
+- **Shows you around:** a short tour with pictures opens when the app starts, until you tick "Don't show this when the app opens". It's always under Settings > Help.
 - **Looks at home next to Omni Connect**, with each game's artwork on its page, and updates itself from this page (tick "Get beta builds too" in Settings for pre-releases).
 
 ![Settings](screenshots/settings.png)
