@@ -1,0 +1,44 @@
+name: Share a movement profile
+description: Share your Omni Connect movement profile for a game. Once it's approved it shows up for everyone in Omni Game Manager.
+title: "[Profile] "
+labels: ["community-profile"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The easiest way is **Share to community** under *Movement tuning* in Omni Game Manager: it fills this in for you.
+        After a quick check the profile is added to the shared list, and everyone's app picks it up the next time it starts.
+  - type: input
+    id: appid
+    attributes:
+      label: Steam App ID
+      description: The number in the game's Steam store link (store.steampowered.com/app/**546560**/...).
+      placeholder: "546560"
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      placeholder: "Half-Life: Alyx"
+    validations:
+      required: true
+  - type: textarea
+    id: profile
+    attributes:
+      label: Profile
+      description: The profile line, as in Omni Connect's profile_<AppID>.txt.
+      placeholder: "-game HalfLifeAlyx -multiplier 1.2 -minspeed 0.3 -minrange 0 -maxrange 1 -maxspeed 0 -omnicoupling 0.7"
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Name to show
+      description: Shown next to the profile (e.g. your Discord name). Leave empty to stay anonymous.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything that helps others, e.g. the mod you used or how it feels.
