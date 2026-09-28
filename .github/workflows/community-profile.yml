@@ -10,12 +10,19 @@ permissions:
   contents: write
   issues: write
 
+# One at a time (GitHub can deliver the same label event twice), so two runs never race to update the list.
+concurrency:
+  group: community-profiles
+  cancel-in-progress: false
+
 jobs:
   add:
     if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'community-profile')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Add the profile
         id: add
