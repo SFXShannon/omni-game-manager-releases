@@ -41,6 +41,8 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 - **Shows you around:** a short tour with pictures opens when the app starts, until you tick "Don't show this when the app opens". It's always under Settings > Help.
 - **Looks at home next to Omni Connect**, with each game's artwork on its page, and updates itself from this page (tick "Get beta builds too" in Settings for pre-releases).
 
+![Getting-started tour](screenshots/tutorial.png)
+
 ![Settings](screenshots/settings.png)
 
 ![VR mod page](screenshots/vr-mod.png)
