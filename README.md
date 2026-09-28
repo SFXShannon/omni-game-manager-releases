@@ -34,7 +34,7 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 - **Undo all:** puts a game back exactly the way it was before the app changed it. **Undo everything** (in Settings) does it for every game, and uninstalling the app offers the same.
 - **Backups with Restore:** every file is backed up before the app changes it, and each backup can be restored from Settings.
 - **Checklist** of what's left for you, like in-game menu settings, which the app ticks off itself where it can.
-- **Tunes movement** in Omni Connect's game profile (live while you play), with presets, undo and **community profiles** that update online. Use **Share…** in the app to add yours to the [shared list](community/profiles.json); it goes through a quick check first.
+- **Tunes movement** in Omni Connect's game profile (live while you play), with presets, undo and **community profiles** that update online. Use **Share…** in the app to add yours to the [shared list](community/profiles.json): no account needed, and it goes through a quick check first.
 - **Tune from inside the headset:** an **Omni tuning** tab in the SteamVR dashboard edits the running game's movement settings, and changes apply within a second or two. **Pin to left hand** keeps the panel on your controller so you can keep walking while you adjust.
 - **Launches** the game the right way, starting SteamVR and Omni Connect first and adding any Steam launch options it still needs.
 - **Warns you** about things that stop the Omni from working, such as the wrong OpenXR runtime or Legacy Mode.
