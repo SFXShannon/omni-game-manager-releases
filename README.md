@@ -36,6 +36,12 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 - **Checklist** of what's left for you, like in-game menu settings, which the app ticks off itself where it can.
 - **Tunes movement** in Omni Connect's game profile (live while you play), with presets, undo and **community profiles** that update online. Use **Share…** in the app to add yours to the [shared list](community/profiles.json): no account needed, and it goes through a quick check first.
 - **Tune from inside the headset:** an **Omni tuning** tab in the SteamVR dashboard edits the running game's movement settings, and changes apply within a second or two. **Pin to left hand** keeps the panel on your controller so you can keep walking while you adjust.
+- **Switches the game's camera as you turn on the Omni** (new in 0.12.0): on the **Cameras** page, each camera is a range of directions with its own key combo (e.g. Ctrl + F2), and turning into a range presses it.
+  - A wheel shows your ranges and which way you face. **Drag the dots** on the wheel to move where a range starts and ends.
+  - **Set straight ahead** picks your 0°, and **Record keys** takes a combo straight from the keyboard.
+  - A **switch-back delay** stops it flipping straight back if you turn back too soon, and an **edge buffer** stops flicker on a border.
+  - The **Cameras** tab of the SteamVR panel does the same from inside the headset: start or stop switching, set straight ahead, and move a camera's edges to where you face.
+  - It needs Omni Connect's packet logging, which the page turns on for you.
 - **Launches** the game the right way, starting SteamVR and Omni Connect first and adding any Steam launch options it still needs.
 - **Warns you** about things that stop the Omni from working, such as the wrong OpenXR runtime or Legacy Mode.
 - **Shows you around:** a short tour with pictures opens when the app starts, until you tick "Don't show this when the app opens". It's always under Settings > Help.
@@ -56,6 +62,10 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 ![Movement tuning](screenshots/movement-tuning.png)
 
 ![Omni tuning panel in SteamVR](screenshots/vr-tuning.png)
+
+![Cameras: switch the game's camera by the way you face](screenshots/cameras.png)
+
+![Cameras tab of the SteamVR panel](screenshots/vr-cameras.png)
 
 ## Problems and ideas
 
