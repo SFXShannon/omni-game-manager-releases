@@ -1,0 +1,80 @@
+name: Bug report
+description: Something in Omni Game Manager doesn't work as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more detail you give, the faster it can be fixed.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown next to the app name at the top of the window (for example 0.2.0).
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app?
+      options:
+        - Game list / detection
+        - VR mods
+        - Automatic setup (launch options, ini edits)
+        - Checklist steps
+        - Movement tuning / profiles
+        - Add app or mod
+        - Launch
+        - Update check / updating
+        - Starting the app
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game or mod
+      placeholder: "e.g. Half-Life: Alyx, RE Village VR"
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Selected a game and clicked Set up for Omni One
+        2. ...
+        Expected: ...
+        Actually: ...
+    validations:
+      required: true
+  - type: textarea
+    id: status-message
+    attributes:
+      label: Message shown by the app
+      description: Copy any error or status message from the bottom of the window or a pop-up. The log is at %AppData%\OmniGameManager\OmniGameManager.log.
+      render: text
+  - type: input
+    id: omni-connect
+    attributes:
+      label: Omni Connect version
+      description: Shown in the app's header.
+      placeholder: "e.g. 1.2.93"
+  - type: input
+    id: headset
+    attributes:
+      label: Headset and streaming
+      placeholder: "e.g. Omni One headset + Business Streaming, Quest 3 + Steam Link, Pimax Crystal"
+  - type: dropdown
+    id: how-installed
+    attributes:
+      label: How did you install it?
+      options:
+        - Installer (Setup exe)
+        - Portable exe
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help show the problem.

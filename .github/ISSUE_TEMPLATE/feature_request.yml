@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest something new, a game or mod to support, or a change to an existing feature
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome, including games or VR mods you'd like set up for the Omni One.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app?
+      options:
+        - Support for a game or mod
+        - Automatic setup
+        - Movement tuning / profiles
+        - Game list
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the problem, not just the solution. For example "I have to redo the SteamVR binding for this mod every time."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would you like it to work?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Links to the mod, a working Omni profile, screenshots, or how you work around it today.
