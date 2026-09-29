@@ -1,4 +1,4 @@
-﻿<img src="icon.png" width="72" align="left" alt="">
+<img src="icon.png" width="72" align="left" alt="">
 
 # Omni Game Manager
 
@@ -25,8 +25,8 @@ Windows SmartScreen may warn that it's an unrecognized app, because it isn't cod
 
 ## What it does
 
-- **Finds the games on your PC that work with the Omni One**: Virtuix's 123 supported games, 280+ flat-to-VR mods (Half-Life 2 VR, the Resident Evil mods, Halo MCC VR, the GTA mods, Cyberpunk 2077 VR, Crysis VR, Alien: Isolation VR, ...), and other VR games with walking from your SteamVR library (Pavlov VR, Meta store games added to SteamVR, ...). Racing and flight sims, rhythm games and VR tools are hidden unless you ask for them. Searching also finds VR mods for games you haven't installed yet, with a button to install the game in Steam.
-- **UEVR games too:** about 470 Unreal Engine games with community UEVR profiles (from [uevr-profiles.com](https://uevr-profiles.com)), with the community's rating, a setup guide, detection of your installed profile, and UEVR's movement set to follow your head.
+- **Finds the games on your PC that work with the Omni One**: Virtuix's 123 supported games, 160+ flat-to-VR mods with motion controls (Half-Life 2 VR, the Resident Evil mods, Halo MCC VR, the GTA mods, Cyberpunk 2077 VR, Crysis VR, Alien: Isolation VR, ...), and other VR games with walking from your SteamVR library (Pavlov VR, Meta store games added to SteamVR, ...). Only games you walk in are listed: racing and flight sims, mech cockpits, rhythm games and rides are left out, and so are mods played with a gamepad. Searching also finds VR mods for games you haven't installed yet, with a button to install the game in Steam.
+- **UEVR games too:** about 135 Unreal Engine games with community UEVR profiles and 6DOF motion controls (from [uevr-profiles.com](https://uevr-profiles.com)), with the community's rating, a setup guide, detection of your installed profile, and UEVR's movement set to follow your head.
 - **Sets each game up for you** with one click ("Set up for Omni One"):
   - **Omni One binding in SteamVR** for games Virtuix doesn't ship one for, made from the game's own controls (left stick = Omni). Older SteamVR games are recognised as already covered by the Omni driver.
   - **OpenXR runtime:** OpenXR mods started from the app run on SteamVR's runtime without changing your default (e.g. Pimax); for games started through Steam it can switch the runtime for you.
